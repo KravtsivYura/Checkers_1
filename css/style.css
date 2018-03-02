@@ -1,0 +1,123 @@
+body{
+	background: #F0F0F0;
+	font-size: 20px;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.big_conteiner {
+	margin: 20px auto;
+	max-width: 800px;
+	height: 800px;
+	box-sizing: border-box;
+	border: 2px solid black;
+}
+.row:first-child {
+	height: 5%;
+	box-sizing: border-box;
+	transform: rotate(-180deg);
+}
+.row:last-child {
+	height: 5%;
+	box-sizing: border-box;
+}
+.row {
+	height: 11.25%;
+	box-sizing: border-box;
+	display: flex;
+}
+.column:first-child {
+	width: 5%;
+	box-sizing: border-box;
+}
+.column:last-child {
+	width: 5%;
+	box-sizing: border-box;
+	transform: rotate(-180deg);
+}
+.column {
+	width: 11.25%;
+	box-sizing: border-box;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.row_1 .column:nth-child(2n+3) {
+	background: black;
+}
+.row_2 .column:nth-child(-2n+8) {
+	background: black;
+}
+.row_1 .column:nth-child(-2n+8) {
+	border: 1px solid black;
+}
+.row_2 .column:nth-child(2n+3) {
+	border: 1px solid black;
+}
+.checkers_white {
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	background: white;
+}
+.checkers_white:hover {
+	background: black;
+}
+.checkers_black {
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	background: brown;
+}
+.checkers_black:hover {
+	background: white;
+}
+*{transition: all .1s ease-in;}
